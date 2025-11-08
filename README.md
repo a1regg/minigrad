@@ -1,4 +1,4 @@
-# Minigrad
+# MiniGrad
 
 A minimal deep learning framework implementing automatic differentiation and neural network training from scratch using NumPy. Built for fun.
 
@@ -24,7 +24,7 @@ pip install numpy
 - **Data Handling**: Dataset and DataLoader with batching and shuffling
 - **Training Loop**: High-level Trainer API with configurable epochs and logging
 
-## Project Structure
+## MiniGrad Structure
 
 ```
 .
@@ -304,4 +304,5 @@ self.grad = self.grad + incoming_grad
 
 Inspired by [micrograd](https://github.com/karpathy/micrograd) by Andrej Karpathy.
 Numpy
+
 
