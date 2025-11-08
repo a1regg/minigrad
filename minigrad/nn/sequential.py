@@ -1,7 +1,7 @@
 """Sequential module container."""
 
 from typing import List
-from nn.module import Module
+from .module import Module
 
 
 class Sequential(Module):

@@ -2,7 +2,7 @@
 
 import numpy as np
 from typing import Sequence
-from tensor import Tensor
+from minigrad.tensor import Tensor
 
 
 class Optimizer:

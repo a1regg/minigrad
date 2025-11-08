@@ -1,6 +1,6 @@
 import numpy as np
-from nn.module import Module
-from tensor import Tensor
+from minigrad.nn.module import Module
+from minigrad.tensor import Tensor
 
 
 class Loss(Module):

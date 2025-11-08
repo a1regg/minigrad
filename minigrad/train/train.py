@@ -3,8 +3,8 @@
 from typing import Optional, List
 import numpy as np
 from dataclasses import dataclass
-from nn.module import Module
-from tensor import Tensor
+from minigrad.nn.module import Module
+from minigrad.tensor import Tensor
 
 
 @dataclass

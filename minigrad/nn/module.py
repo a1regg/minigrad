@@ -1,7 +1,7 @@
 """Base module class for neural network components."""
 
 from typing import List, Iterator
-from tensor import Tensor
+from minigrad.tensor import Tensor
 
 
 class Module:
@@ -41,7 +41,6 @@ class Module:
 
 def _gather(obj) -> List[Tensor]:
     """Recursively extract trainable tensors from nested structures."""
-    from nn.module import Module  # local import to avoid cycle
 
     out: List[Tensor] = []
     if isinstance(obj, Tensor) and obj.requires_grad:

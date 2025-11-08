@@ -1,8 +1,8 @@
 """Neural network layer implementations."""
 
 import numpy as np
-from tensor import Tensor
-from nn.module import Module
+from minigrad.tensor import Tensor
+from minigrad.nn.module import Module
 
 
 class Linear(Module):

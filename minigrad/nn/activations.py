@@ -1,7 +1,7 @@
 """Activation function modules."""
 
-from nn.module import Module
-from tensor import Tensor
+from .module import Module
+from ..tensor import Tensor
 
 
 class ReLU(Module):
